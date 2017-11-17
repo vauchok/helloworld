@@ -2,11 +2,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>servlet-test</groupId>
-  <artifactId>servlet-test</artifactId>
+  <groupId>tomcat</groupId>
+  <artifactId>tomcat</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
-  <name>servlet-test Maven Webapp</name>
+  <version>${buildNumber}</version>
+  <name>Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>servlet-test</finalName>
+    <finalName>hello-${buildNumber}</finalName>
   </build>
 </project>
