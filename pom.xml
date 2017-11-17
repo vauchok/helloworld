@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>hello-${buildNumber}</finalName>
+    <finalName>tomcat-${buildNumber}</finalName>
   </build>
 </project>
