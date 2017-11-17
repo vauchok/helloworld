@@ -5,7 +5,7 @@
   <groupId>tomcat</groupId>
   <artifactId>tomcat</artifactId>
   <packaging>war</packaging>
-  <version>${buildNumber}</version>
+  <version>$\{buildNumber}</version>
   <name>Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>hello-${buildNumber}</finalName>
+    <finalName>hello-$\{buildNumber}</finalName>
   </build>
 </project>
